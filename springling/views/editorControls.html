@@ -1,0 +1,46 @@
+<p>
+  <div id = "addTileTool" style = "display:none;">
+    <h3>Add Tiles</h3>
+    <form>
+      <select id = "newTileType"></select>
+    </form>
+  </div>
+</p>
+
+<p>
+  <div id = "tileDataTool" style = "display:none;">
+    <h3>Tile Data</h3>
+    <div id = "selectedTileData">
+      None
+    </div>
+    <select id = "selectedTileType" style = "display:none;"></select>
+    <br/>
+    <button id = "destroySelectedTile">Destroy</button>
+  </div>
+</p>
+
+<p>
+  <div id = "eraseTileTool" style = "display:none;">
+    <h3>Erase Tiles</h3>
+    <i>Click a tile to remove it</i>
+  </div>
+</p>
+
+<p>
+  <div id = "changeTileTool" style = "display:none;">
+    <h3>Change Tile Types</h3>
+    <form>
+      <select id = "changeTileType"></select>
+    </form>
+  </div>
+</p>
+
+<p>
+  <h3>Map Editor Tools</h3>
+  <ul id = "toolList">
+    <li><a href = "#" data-tooltype = "addTileTool">Add Tiles</a></li>
+    <li><a href = "#" data-tooltype = "eraseTileTool">Erase Tiles</a></li>
+    <li><a href = "#" data-tooltype = "changeTileTool">Change Tile Types</a></li>
+    <li><a href = "#" data-tooltype = "tileDataTool">View/Edit Tile Data</a></li>  
+  </ul>
+</p>
